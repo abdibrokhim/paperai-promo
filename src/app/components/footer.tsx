@@ -18,9 +18,10 @@ export default function Footer() {
           />
         </a>
         <div className="flex flex-col md:flex-row items-left md:items-cneter gap-x-16 gap-y-4 flex-wrap text-white text-xs">
-          <a className="link link-hover whitespace-nowrap" href="https://linkedin.com/company/opencommunity">terms</a>
-          <a className="link link-hover whitespace-nowrap" href="https://linkedin.com/company/opencommunity">privacy policy</a>
-          <a className="link link-hover whitespace-nowrap" href="https://linkedin.com/company/opencommunity">about</a>
+          <a className="link link-hover whitespace-nowrap" target="_blank" href="https://github.com/abdibrokhim/paperai-promo">fork this</a>
+          <a className="link link-hover whitespace-nowrap" target="_blank" href="https://linkedin.com/company/opencommunity">terms</a>
+          <a className="link link-hover whitespace-nowrap" target="_blank" href="https://linkedin.com/company/opencommunity">privacy policy</a>
+          <a className="link link-hover whitespace-nowrap" target="_blank" href="https://linkedin.com/company/opencommunity">about</a>
           <p className="whitespace-nowrap">© 2024 paper ai</p>
           <div className="flex items-center gap-3"> 
             <a className="clickable" href="https://linkedin.com/company/opencommunity" target="_blank" rel="noopener noreferrer">

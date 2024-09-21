@@ -63,8 +63,8 @@ export default function Home() {
       <HeaderPrimary />
       <main className="flex-1 flex flex-col gap-16 px-4 md:px-0 py-24 m-auto w-full md:w-4/5 2xl:w-3/5">
         <div className="flex flex-col md:flex-row justify-center md:items-left items-center gap-16">
-          <div className="text-left flex md:flex-row flex-col gap-32 py-32 h-full px-16 md:px-16 w-full">
-            <div className="md:w-1/2 w-1/2">
+          <div className="text-left flex md:flex-row flex-col md:gap-0 gap-32 py-32 h-full px-10 md:px-16 w-full">
+            <div className="md:w-1/2 w-full">
               <span className="flex flex-col gap-4 text-[#1e1e1e] text-[16px] mt-4">
                 <Image
                   src={blackLogo}
@@ -78,11 +78,11 @@ export default function Home() {
                 <p>join the ai-powered research renaissance!</p>
               </span>
             </div>
-            <div className="flex flex-col justify-center md:w-1/2 w-1/2">
+            <div className="flex flex-col justify-center md:w-1/2 w-full">
               <div>
                 {`hi, buddy;)`}
               </div>
-              <div className="flex flex-col lg:flex-row justify-center items-center gap-2 mt-16">
+              <div className="flex flex-col lg:flex-row md:justify-center md:items-center justify-start items-start gap-2 mt-16">
                 <input
                   type="email"
                   placeholder="Enter your email"
