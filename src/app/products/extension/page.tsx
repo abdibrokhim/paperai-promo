@@ -1,5 +1,4 @@
-import Image from "next/image"; 
-import '../globals.css';
+import '../../globals.css';
 
 import Footer from '../../components/footer';
 import HeaderPrimary from '../../components/header.primary';
