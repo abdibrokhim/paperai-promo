@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Image from "next/image";
 import './globals.css';
 
@@ -10,6 +10,7 @@ import { Analytics } from '@vercel/analytics/react';
 
 import whiteLogo from './assets/logos/paperai_white.png';
 import blackLogo from './assets/logos/paperai.png';
+import ocLogo from './assets/logos/oc-logo.png';
 
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc } from 'firebase/firestore';
@@ -114,6 +115,18 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <div className='flex flex-row gap-1 justify-center items-end mb-8'>
+        <p className='text-sm'>Backed by</p>
+        <a href='https://www.linkedin.com/company/opencommunity/' target='_blank'>
+        <Image
+          src={ocLogo}
+          width={200}
+          alt="paper ai"
+          className="max-w-[300px] img-shadow shrink-0 grow-0"
+          title="paper ai"
+          />
+          </a>
+      </div>
       <Footer />
     </div>
   );
