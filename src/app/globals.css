@@ -25,3 +25,36 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.ribbon {
+  background-color: #ff5722; /* Bright orange color */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ribbon a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.ribbon a:hover {
+  color: #ffd700; /* Gold color for hover */
+}
+
+.ribbon .icon {
+  font-size: 1.5em;
+}

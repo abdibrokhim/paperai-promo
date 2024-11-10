@@ -63,6 +63,12 @@ export default function Home() {
       <Analytics />
       <HeaderPrimary />
       <main className="flex-1 flex flex-col gap-16 px-4 md:px-0 py-24 m-auto w-full md:w-4/5 2xl:w-3/5">
+        <div className="ribbon">
+          <span className="icon">🚀</span>
+          <span>Paper AI 2.0 is out!</span>
+          <a href="https://youtu.be/E7d1rLyXXVE?si=8yExx6Y-iMOFANeT" target="_blank">Watch on YouTube</a>
+          <a href="https://youtu.be/59J436HLnkM?si=QnkEdMpsuS_I3Jb8" target="_blank">Our Pitch</a>
+        </div>
         <div className="flex flex-col md:flex-row justify-center md:items-left items-center gap-16">
           <div className="text-left flex md:flex-row flex-col md:gap-0 gap-32 py-32 h-full px-10 md:px-16 w-full">
             <div className="md:w-1/2 w-full">
