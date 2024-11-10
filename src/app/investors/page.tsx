@@ -13,7 +13,7 @@ export default function Investors() {
       <main className="flex-1 flex flex-col gap-16 px-4 md:px-0 py-24 m-auto w-full md:w-4/5 2xl:w-3/5">
         <div className="flex flex-col md:flex-row justify-center items-center gap-16">
           <div className="text-left flex md:flex-row flex-col gap-32 py-32 h-full">
-            <p>learn more <a href="https://www.canva.com/design/DAGSVxDN3lw/Yr7Da4FvbqlQgpaTrojkFA/view?utm_content=DAGSVxDN3lw&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" className="underline">here</a></p>
+            <p>learn more <a href="https://rebrand.ly/paperaipitchdeckreal" target="_blank" className="underline">here</a></p>
           </div>
         </div>
       </main>

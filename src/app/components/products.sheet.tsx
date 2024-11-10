@@ -17,8 +17,8 @@ export default function ProductsSheet({ toggleProducts }: ProductsSheetProps) {
         &times;
       </button>
       <div className="flex md:flex-row flex-col gap-32 items-center justify-center space-x-4">
-        <a className="btn text-gray-700 text-md font-bold" href="https://ipaperai.vercel.app/">paper ai app</a>
-        <a className="btn text-gray-700 text-md font-bold" href="https://github.com/abdibrokhim/paperai-chrome-extension">paper ai extension</a>
+        <a className="btn text-gray-700 text-md font-bold" href="https://ipaperai.vercel.app/">paper ai webapp</a>
+        <a className="btn text-gray-700 text-md font-bold" href="https://github.com/abdibrokhim/paperai-chrome-extension">paper ai chrome extension</a>
       </div>
     </div>
   );

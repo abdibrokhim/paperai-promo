@@ -1,3 +1,1 @@
-hi, there!
-
-welcome to paper ai.
+paper ai 2.0 out now -> https://github.com/abdibrokhim/paper-ai-voice-assistant
